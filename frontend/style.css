@@ -241,6 +241,39 @@ nav {
     margin-top: 40px;
 }
 
+/* Responsive for Laptop screen */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .home-image {
+        width: 1000px;
+    }
+
+    .animal-card {
+        width: 220px;
+    }
+
+    .card-container {
+        gap: 50px;
+    }
+
+    .shelter-box {
+        max-width: 900px;
+        padding: 25px;
+    }
+
+    .shelter-image {
+        width: 350px;
+    }
+
+    .form-container {
+        max-width: 450px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+}
+
+
 /* Responsive for Tablet size screen */
 @media (max-width: 1024px) {
     .home-image {
